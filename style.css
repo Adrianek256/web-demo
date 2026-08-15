@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(8, 11, 20);
+    margin: 0;
+}
+
+#box{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0px 0px 50px rgba(218, 165, 32, 0.493);
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 6px solid;
+    border-radius: 25px;
+    border-color: goldenrod;
+    height: 110px;
+    width: 1000px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    visibility: visible;
+}
+
+#gitlogo{
+    height: auto;
+    position: fixed;
+    left: 15px;
+    bottom: 15px;
+    visibility: visible;
+}
